@@ -2,6 +2,8 @@ module NLExample
 
 greet() = print("Hello World!")
 
-end # module
+include("haircut_file.jl")
+# this is a file to contain the haircut code
 
-# pequena alteracao 
+export therightsum
+end # module
